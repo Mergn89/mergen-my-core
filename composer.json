@@ -1,0 +1,19 @@
+{
+    "name": "mergen/my-core",
+    "description": "Core",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mergen\\MyCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mergn89",
+            "email": "mergen.olegov@yandex.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
