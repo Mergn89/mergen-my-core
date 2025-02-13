@@ -1,14 +1,6 @@
 <?php
 
-namespace Core;
-
-use Controller\CartController;
-use Controller\OrderController;
-use Controller\ProductController;
-use Controller\UserController;
-use Service\Auth\AuthSessionService;
-use Service\CartService;
-use Service\OrderService;
+namespace Mergen\Core;
 
 class Container
 {

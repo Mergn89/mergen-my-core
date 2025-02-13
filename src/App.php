@@ -1,7 +1,5 @@
 <?php
-namespace Core;
-use Request\Request;
-
+namespace Mergen\Core;
 
 class App
 {
@@ -17,7 +15,6 @@ class App
         $this->loggerService = $loggerService;
         $this->container = $container;
     }
-
 
 
     public function run(): void
@@ -78,7 +75,6 @@ class App
             'method' =>  $methodName,
             'request' => $requestClass
         ];
-
 
     }
 
