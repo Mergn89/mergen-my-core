@@ -1,17 +1,10 @@
 {
-    "name": "mergen/my-core",
-    "description": "core",
+    "name": "mergen/core",
     "type": "library",
-    "require": {
-        "php": "^8.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mergen\\MyCore\\": "src/"
+            "Mergen\\Core\\": "src/"
         }
     },
     "authors": [
@@ -19,5 +12,6 @@
             "name": "Mergn89",
             "email": "mergen.olegov@yandex.com"
         }
-    ]
+    ],
+    "require": {}
 }
